@@ -26,5 +26,7 @@ function [majmin]=princaxtheta(z);
 %
 [theta, maj, min, wr] = princax(z);
 
-majmin = complex(maj,min);
+
+
+majmin = complex(maj,real(min));
 
